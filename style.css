@@ -52,7 +52,7 @@ body::before {
 }
 
 .apple-image-box {
-  background: linear-gradient(#b4ec51, #429321);
+  background: linear-gradient(#aeef3c, #3d901c);
   border-radius: 10px;
   width: 320px;
   height: 380px;
@@ -68,6 +68,8 @@ body::before {
   top: 80px;
   right: 80px;
   width: 340px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
+  
 }
 
 /*================ Icons Styling ====================*/
@@ -101,7 +103,7 @@ body::before {
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
-  background-color: antiquewhite;
+  background-color: white;
   width: 20em;
   padding: 20px 60px;
   border-bottom-right-radius: 10px;
